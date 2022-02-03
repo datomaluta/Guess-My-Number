@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Press Start 2P', sans-serif;
+  color: #eee;
+  background-color: #222;
+}
+
+header {
+  height: 35vh;
+  position: relative;
+  border-bottom: 7px solid #eee;
+}
+
+.header-wraper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.again {
+  width: 183px;
+  height: 57px;
+  font-family: inherit;
+  border-radius: 5px;
+}
+
+header h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.number {
+  background: #eee;
+  width: 150px;
+  height: 120px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  color: #222;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 35px;
+  transform: translate(-50%, 50%);
+}
+
+main {
+  height: 65vh;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 200px;
+}
+
+.check {
+  width: 180px;
+  height: 60px;
+  font-family: inherit;
+}
+
+.guess {
+  background: none;
+  width: 250px;
+  height: 100px;
+  color: #eee;
+  font-size: 50px;
+  font-family: inherit;
+  border: 3px white solid;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.message {
+  margin-bottom: 60px;
+  font-size: 20px;
+}
+
+.label-score {
+  font-size: 35px;
+}
+
+.label-highscore {
+  margin-top: 30px;
+  font-size: 35px;
+}
